@@ -1,0 +1,27 @@
+package _08_introducaoPOO;
+
+import java.util.Scanner;
+
+public class PrincipalProduto {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("dados produto");
+		Produto pd = new Produto();
+		System.out.println("nome: ");
+		pd.nome = sc.next();
+		System.out.println("qtd: ");
+		pd.quantidade = sc.nextInt();
+		System.out.println("preço: ");
+		pd.preco = sc.nextDouble();
+		
+		System.out.println('adicionar qtd');
+		
+		
+		
+		sc.close();
+
+	}
+
+}

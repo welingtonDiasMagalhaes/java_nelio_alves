@@ -1,0 +1,23 @@
+package _08_introducaoPOO;
+
+public class Produto {
+	String nome;
+	Double preco;
+	int quantidade;
+	
+	public double ValorTotalEstoque() {
+		return preco * quantidade;
+	}
+	
+	public void adicionarProduto(int qtd) {
+		quantidade += qtd;
+	}
+	
+	
+	public void retirarProduto(int qtd) {
+		if(quantidade - qtd >= 0) {
+			quantidade -= qtd;
+		};
+	}
+
+}

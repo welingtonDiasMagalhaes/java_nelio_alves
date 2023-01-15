@@ -1,0 +1,18 @@
+package _08_introducaoPOO;
+
+import java.util.Scanner;
+
+public class PrincipalProduto {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("dados produto:");
+		Produto pd = new Produto();
+		sysout
+		
+		sc.close();
+
+	}
+
+}

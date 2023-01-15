@@ -1,0 +1,15 @@
+package _08_introducaoPOO;
+
+import java.util.Scanner;
+
+public class PrincipalTriangulo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package _08_introducaoPOO;
+
+import java.util.Scanner;
+
+public class PrincipalTriangulo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Triangle x, y;
+		x = new Triangle();
+		y = new Triangle();
+		
+		System.out.println("*** Entre com os lados do triangulo x");
+		System.out.println("lado A: ");
+		x.a = sc.nextDouble();
+		System.out.println("lado B: ");
+		x.b = sc.nextDouble();
+		System.out.println("lado C: ");
+		x.c = sc.nextDouble();
+		
+		System.out.println("Média dos lado é: " + mediaLados(x));
+		
+		sc.close();
+	}
+	
+	public static double mediaLados(Triangle x) {
+		return (x.a + x.b + x.c)/3.0;		
+	}
+		
+
+}
