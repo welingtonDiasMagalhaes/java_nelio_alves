@@ -1,0 +1,17 @@
+package _14_heranca;
+
+public class ExemploPolimorfismo {
+
+	public static void main(String[] args) {
+		Account acc2 = new BusinessAccount(1003, "cde", 12.0, 20.0);// sem erro, idem explicação acima
+		Account acc3 = new SavingsAccount(1004, "bcd", 10.0, 60.0); // sem erro, idem explicação acima
+		
+		/*
+		recurso que
+		permite que variáveis de um mesmo tipo mais genérico possam
+		apontar para objetos de tipos específicos diferentes, tendo assim
+		comportamentos diferentes conforme cada tipo específico.
+		*/
+	}
+
+}

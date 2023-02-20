@@ -1,0 +1,5 @@
+package _14_heranca;
+
+public class SavingsAccountPlus extends SavingsAccount {
+
+}

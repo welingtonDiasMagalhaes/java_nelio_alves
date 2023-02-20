@@ -1,0 +1,50 @@
+package _11_dataHora;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
+public class _03_ConvertendoDataHoraGlobalParaLocal {
+
+	public static void main(String[] args) {
+		//para converter Data Hora Global Para Local precisa fornecer o timezone!
+		
+		//lista dos time zones disponíveis
+		/*
+		 * for (String s : ZoneId.getAvailableZoneIds()) System.out.println(s);
+		 */
+		
+		//com instant e localDate
+		Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+		System.out.println(d06);
+		
+		LocalDate r1 = LocalDate.ofInstant(d06, ZoneId.systemDefault()); //converte para o timeZone da maquina
+		System.out.println(r1);
+		
+		LocalDate r2 = LocalDate.ofInstant(d06, ZoneId.of("Portugal")); //converte para o timeZone de portugal
+		System.out.println(r2);
+		
+		System.out.println();
+		//com LocalDateTime e instant
+		LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+		
+		LocalDateTime r3 = LocalDateTime.ofInstant(d06, ZoneId.systemDefault());
+		System.out.println(r3);
+		
+		LocalDateTime r4 = LocalDateTime.ofInstant(d06, ZoneId.of("Portugal"));
+		System.out.println(r4);
+		
+		System.out.println();
+		
+		LocalDate d04 = LocalDate.parse("2022-07-20");
+
+		
+	
+		
+		
+
+
+	}
+
+}

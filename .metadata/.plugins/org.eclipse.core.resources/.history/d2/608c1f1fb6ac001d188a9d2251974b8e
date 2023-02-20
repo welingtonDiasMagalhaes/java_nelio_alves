@@ -1,0 +1,21 @@
+package _14_exercicioResolvido;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Entre com o número de funcionarios: ");
+		int qtd = sc.nextInt();
+		
+		
+		
+		sc.close();
+
+	}
+
+}

@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="util.Calculator"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="_10_memoriaArrayLista.DadosPessoais"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.time.ZoneId"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -16,8 +10,33 @@
     <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="java.util.TimeZone"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="_13_composicao.HourContract"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="_13_composicao.Worker"/>
+    <fullyQualifiedTypeName name="_13_composicao.Department"/>
+    <fullyQualifiedTypeName name="entities.enums.WorkerLevel"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="_13_composicao_StringBuilder.Comment"/>
+    <fullyQualifiedTypeName name="_13_composicao_StringBuilder.Post"/>
+    <fullyQualifiedTypeName name="_13_exercicioFixacao.OrdemItem"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="_13_exercicioFixacao.Client"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
+    <fullyQualifiedTypeName name="_13_exercicioFixacao.Product"/>
+    <fullyQualifiedTypeName name="_14_heranca.Account"/>
+    <fullyQualifiedTypeName name="_14_heranca.SavingsAccount"/>
+    <fullyQualifiedTypeName name="_14_heranca.BusinessAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="_14_exercicioResolvido.entities.OutsourcedEmployee"/>
+    <fullyQualifiedTypeName name="_14_exercicioResolvido.entities.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="_14_exercicioFixacaoPolimorfismo.entities.Product"/>
+    <fullyQualifiedTypeName name="_14_exercicioFixacaoPolimorfismo.entities.UsedProduct"/>
+    <fullyQualifiedTypeName name="_14_exercicioFixacaoPolimorfismo.entities.ImportedProduct"/>
 </qualifiedTypeNameHistroy>

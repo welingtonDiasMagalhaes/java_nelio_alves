@@ -1,0 +1,9 @@
+package _14_exercicioFixacaoPolimorfismo.entities;
+
+public class ImportedProduct extends Product {
+
+	public ImportedProduct() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

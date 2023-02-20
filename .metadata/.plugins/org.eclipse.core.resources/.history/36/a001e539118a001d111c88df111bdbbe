@@ -1,0 +1,18 @@
+package _11_dataHora;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class _04_CalculoDataHora {
+	
+	//objeto dataHora +-Tempo -> objeto dataHora
+	//duração entre dataHora1 e dataHora2 
+	
+	LocalDate d04 = LocalDate.parse("2022-07-20");
+	LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+	Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+	
+	
+
+}

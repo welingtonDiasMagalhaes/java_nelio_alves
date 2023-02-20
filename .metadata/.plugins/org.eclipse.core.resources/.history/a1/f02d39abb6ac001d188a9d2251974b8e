@@ -1,0 +1,31 @@
+package _14_exercicioResolvido;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import _14_exercicioResolvido.entities.Employee;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Entre com o número de funcionarios: ");
+		int n = sc.nextInt();
+		
+		List<Employee> employee = new ArrayList<>();
+		
+		for(int i=0; i<n; i++) {
+			System.out.println("Funcionario "+ (i+1));
+		}
+		
+		
+		
+		sc.close();
+
+	}
+
+}

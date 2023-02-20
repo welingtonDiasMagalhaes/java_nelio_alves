@@ -1,0 +1,24 @@
+package _11_dataHora;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class _01_InstanciandoDataHora {
+
+	public static void main(String[] args) {
+		//## instanciando o agora: now
+		//agora -> data-hora
+		LocalDate d01 = LocalDate.now();
+		System.out.println(d01); //2022-12-30
+		
+		LocalDateTime d02 = LocalDateTime.now();
+		System.out.println(d02); //2022-12-30T18:23:22.468286400
+		
+		Instant d03 = Instant.now();
+		System.out.println(d03); //2022-12-30T21:23:22.468286400Z instant traz o fuso horario de londres: Z
+
+		//Texto ISO 8601 -> Data-hora
+	}
+
+}

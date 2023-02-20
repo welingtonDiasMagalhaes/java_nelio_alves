@@ -1,0 +1,22 @@
+package _11_dataHora;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class _01_InstanciandoDataHora {
+
+	public static void main(String[] args) {
+		//## instanciando o agora: now
+		LocalDate d01 = LocalDate.now();
+		System.out.println(d01); //2022-12-30
+		
+		LocalDateTime d02 = LocalDateTime.now();
+		System.out.println(d02); //
+		
+		Instant d03 = Instant.now();
+		System.out.println(d03); //
+
+	}
+
+}

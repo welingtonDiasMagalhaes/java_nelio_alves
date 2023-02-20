@@ -1,0 +1,13 @@
+package _11_dataHora;
+
+import java.time.LocalDate;
+
+public class _01_InstanciandoDataHora {
+
+	public static void main(String[] args) {
+		LocalDate d01 = LocalDate.now();
+		System.out.printf("d01: %a", d01);
+
+	}
+
+}
