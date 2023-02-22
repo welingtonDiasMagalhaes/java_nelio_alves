@@ -1,0 +1,64 @@
+package _14_metodosAbstratos;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import _14_metodosAbstratos.entities.Circle;
+import _14_metodosAbstratos.entities.Color;
+import _14_metodosAbstratos.entities.Rectangle;
+import _14_metodosAbstratos.entities.Shape;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		List<Shape> list = new ArrayList<>();
+		
+		System.out.println("Número de formas");
+		int qtd = sc.nextInt();
+		
+		for(int x = 1; x<= qtd; x++) {
+			System.out.println("Shape n."+x+" dados:");
+			
+			String shape = "";
+			do {
+				System.out.println("Retangulo (R) ou Círculo (C)?");
+				shape = sc.next().toUpperCase();
+			} while (!shape.equals("R") && !shape.equals("C"));
+			
+			String color = "";
+			do {
+				System.out.println("cor (BLACK/BLUE/RED): ");
+				color = sc.next().toUpperCase();
+			}while(!color.equals("BLACK") && !color.equals("BLUE") && !color.equals("RED"));
+			
+			
+			if(shape.equals("R")) {
+				System.out.println("width: ");
+				double width = sc.nextDouble();
+				
+				System.out.println("heigth: ");
+				double heigth = sc.nextDouble();
+				
+				Shape sh = new Rectangle(Color.valueOf(color), width, heigth);
+				list.add(sh);				
+			}
+			else {
+				System.out.println("radius: ");
+				double radius = sc.nextDouble();
+				
+				Shape sh = new Circle(Color.valueOf(color), radius);
+				list.add(sh);				
+			}
+		}	
+		
+		System.out.println("Shape Areas:");
+		for(Shape l: list) {
+			System.out.println(l.area());
+		}
+		
+		sc.close();
+	}
+
+}

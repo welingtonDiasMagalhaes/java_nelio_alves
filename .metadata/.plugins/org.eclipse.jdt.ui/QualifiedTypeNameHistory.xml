@@ -23,7 +23,6 @@
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="_13_exercicioFixacao.Client"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
     <fullyQualifiedTypeName name="_13_exercicioFixacao.Product"/>
@@ -32,11 +31,17 @@
     <fullyQualifiedTypeName name="_14_heranca.BusinessAccount"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="_14_exercicioResolvido.entities.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="_14_exercicioResolvido.entities.Employee"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="_14_exercicioFixacaoPolimorfismo.entities.Product"/>
     <fullyQualifiedTypeName name="_14_exercicioFixacaoPolimorfismo.entities.UsedProduct"/>
     <fullyQualifiedTypeName name="_14_exercicioFixacaoPolimorfismo.entities.ImportedProduct"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="_14_metodosAbstratos.entities.Shape"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="_14_metodosAbstratos.entities.Rectangle"/>
+    <fullyQualifiedTypeName name="_14_metodosAbstratos.entities.Color"/>
+    <fullyQualifiedTypeName name="_14_metodosAbstratos.entities.Circle"/>
 </qualifiedTypeNameHistroy>

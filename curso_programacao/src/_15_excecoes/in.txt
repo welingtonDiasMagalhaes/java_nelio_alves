@@ -1,0 +1,4 @@
+teste de abertura de arquivo.
+segunda linha
+terceira linha
+final.

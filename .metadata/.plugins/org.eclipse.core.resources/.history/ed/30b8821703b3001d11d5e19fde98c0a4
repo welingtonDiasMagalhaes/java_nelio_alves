@@ -1,0 +1,10 @@
+package _15_excecoes;
+
+public class _3_finally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
