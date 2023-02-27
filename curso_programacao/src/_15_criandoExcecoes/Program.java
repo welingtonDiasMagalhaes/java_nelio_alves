@@ -21,7 +21,7 @@ public class Program {
 			System.out.print("Check-in date (dd/MM/yyyy): ");
 			Date checkIn = sdf.parse(sc.next());
 			System.out.print("Check-out date (dd/MM/yyyy): ");
-			Date checkOut = sdf.parse(sc.next());
+			Date checkOut = sdf.parse(sc.next()); //entra a data como texto e converte pelo sdf.parse()
 			
 			Reservation reservation = new Reservation(number, checkIn, checkOut);
 			System.out.println("Reservation: " + reservation);
@@ -36,7 +36,7 @@ public class Program {
 			reservation.updateDates(checkIn, checkOut);
 			System.out.println("Reservation: " + reservation);
 		}
-		catch (ParseException e) {
+		catch (ParseException e) {//para o parse do sdf.parse(). Antes estava sendo propagada via throws no main! 
 			System.out.println("Invalid date format");
 		}
 		catch (DomainException e) {

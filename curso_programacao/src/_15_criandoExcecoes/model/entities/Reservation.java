@@ -30,6 +30,9 @@ public class Reservation {
 	public void setRoomNumber(Integer roomNumber) {
 		this.roomNumber = roomNumber;
 	}
+	
+	//não tem setCheckIn() e getCheckOut(), pois as datas serão
+	//atualizadas por método updateDates()
 
 	public Date getCheckIn() {
 		return checkIn;
@@ -39,8 +42,10 @@ public class Reservation {
 		return checkOut;
 	}
 
-	public long duration() {
+	public long duration() { //abaixo retorna long
+		//pegando a diferença entre datas em milisegundos
 		long diff = checkOut.getTime() - checkIn.getTime();
+		//transformando milisegundos em dias
 		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
 	}
 	
