@@ -1,0 +1,63 @@
+//percorrer os contrato para encontrar o mes e o ano
+	for(HourContract c : this.contracts){
+		//obtendo o mes e o ano do contrato
+		cal.setTime(c.getDate());
+		int c_year = cal.get(Calendar.YEAR);
+		int c_month = cal.get(Calendar.MONTH) + 1;
+		
+		//compara o mes e o ano do contrato com os parametros
+		if(c_year == year && c_month == month) sum += c.totalValue();
+	}
+	
+**
+private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");// constante para data
+
+** _13_composicao
+//para buscar o ganho de um contrato pelo mes e ano
+System.out.println();
+System.out.println("entre com mês e ano (MM/yyyy) para buscar o vencimento:");
+String monthAndYear = sc.next();
+//quebrando para obter o mes e ano
+int month = Integer.parseInt(monthAndYear.substring(0,2));
+int year = Integer.parseInt(monthAndYear.substring(3));
+
+
+** _15_criandoExcessoes
+Scanner sc = new Scanner(System.in);
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); //defini o format
+
+System.out.print("Check-out date (dd/MM/yyyy): ");
+Date checkOut = sdf.parse(sc.next()); //entra a data como texto e converte pelo sdf.parse()
+			
+//duração em dias e retorno
+private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+public long duration() { //abaixo retorna long
+		//pegando a diferença entre datas em milisegundos
+	long diff = checkOut.getTime() - checkIn.getTime();
+	//transformando milisegundos em dias
+	return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+}
+
+@Override
+	public String toString() {
+		return  ", check-in: "
+			+ sdf.format(checkIn)
+			+ ", check-out: "
+			+ sdf.format(checkOut)
+			+ ", "
+			+ duration()
+			+ " nights";
+	}
+
+//validação entre duas datas
+public void updateDates(Date checkIn, Date checkOut) {
+	Date now = new Date();
+	if (checkIn.before(now) || checkOut.before(now)) {
+		throw new DomainException("Reservation dates for update must be future dates");
+	}
+	if (!checkOut.after(checkIn)) {
+		throw new DomainException("Check-out date must be after check-in date");
+	}
+	this.checkIn = checkIn;
+	this.checkOut = checkOut;
+}
