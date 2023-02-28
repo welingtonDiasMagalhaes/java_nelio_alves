@@ -45,7 +45,8 @@
     <fullyQualifiedTypeName name="_14_metodosAbstratos.entities.Color"/>
     <fullyQualifiedTypeName name="_14_metodosAbstratos.entities.Circle"/>
     <fullyQualifiedTypeName name="_15_criandoExcecoes.entities.Account"/>
-    <fullyQualifiedTypeName name="boardgame.Position"/>
     <fullyQualifiedTypeName name="boardgame.Board"/>
     <fullyQualifiedTypeName name="boardgame.Piece"/>
+    <fullyQualifiedTypeName name="chess.pieces.Rook"/>
+    <fullyQualifiedTypeName name="boardgame.Position"/>
 </qualifiedTypeNameHistroy>
