@@ -1,7 +1,0 @@
-package _14_metodosAbstratos.entities;
-
-public enum Colour {
-	BLACK,
-	BLUE,
-	RED
-}

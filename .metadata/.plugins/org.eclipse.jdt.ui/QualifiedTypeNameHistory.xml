@@ -49,4 +49,6 @@
     <fullyQualifiedTypeName name="boardgame.Piece"/>
     <fullyQualifiedTypeName name="chess.pieces.Rook"/>
     <fullyQualifiedTypeName name="boardgame.Position"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="boardgame.BoardException"/>
 </qualifiedTypeNameHistroy>

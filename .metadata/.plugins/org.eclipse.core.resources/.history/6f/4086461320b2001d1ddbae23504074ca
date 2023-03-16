@@ -1,5 +1,0 @@
-package _14_metodosAbstratos.entities;
-
-public abstract class Shape {
-
-}
