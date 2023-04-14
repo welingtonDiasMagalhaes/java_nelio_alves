@@ -18,7 +18,7 @@ public class _03_entradaDados {
 		Locale.setDefault(Locale.US);// Para considerar o separador de decimais como ponto, ANTES da declaração do Scanner
 		Scanner sc = new Scanner(System.in);
 				
-		//ler palavra sem spaço
+		//ler palavra sem espaço
 		System.out.println("digite uma palavra");
 		String x;
 		x = sc.next(); //ler palavra

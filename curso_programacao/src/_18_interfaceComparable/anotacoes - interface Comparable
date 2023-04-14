@@ -1,0 +1,30 @@
+Method compareTo:
+Parameters:
+o - the object to be compared.
+
+Returns:
+a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.
+
+System.out.println("maria".compareTo("alex"));
+System.out.println("alex".compareTo("maria"));
+System.out.println("maria".compareTo("maria"));
+Output:
+12
+-12
+0
+
+
+public class Employee implements Comparable<Employee>{
+	...
+	//implementação do contrato Comparable
+	@Override
+	public int compareTo(Employee o) {
+		//return name.compareTo(o.getName());
+		//return salary.compareTo(o.getSalary());
+		return -salary.compareTo(o.getSalary()); //para decrescente: colocar o - na frente
+	}
+}
+
+ver o program2:
+Collections.sort(list);
+...

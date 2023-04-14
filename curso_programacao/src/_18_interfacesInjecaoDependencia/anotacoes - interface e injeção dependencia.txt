@@ -1,0 +1,44 @@
+A partir do Java 8, interfaces podem ter "default methods" ou "defender methods":
+no java 8, a interface pode implementar métodos!
+
+• Interface
+é um tipo que define um conjunto de operações que uma classe deve implementar.
+A interface estabelece um contrato que a classe deve cumprir.
+Pra quê interfaces? Para criar sistemas com baixo acoplamento e flexíveis.
+
+• Inversão de controle
+Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instanciar suas dependências.
+• Injeção de dependência
+É uma forma de realizar a inversão de controle: um componente externo
+instancia a dependência, que é então injetada no objeto "pai". Pode ser implementada de várias formas:
+• Construtor
+• Classe de instanciação (builder / factory)
+• Container / framework
+
+
+Aspectos em comum entre herança e interfaces
+• Relação é-um
+• Generalização/especialização
+• Polimorfismo
+
+Diferença fundamental
+• Herança => reuso
+• Interface => contrato a ser cumprido
+
+
+• interface (contrato para método) + classe abstrata (atributo cor)
+ver default methods (pode implementar classe concreta a partir do java 8!)
+ver slide 32
+interface: os métodos são publico e abstrato por padrão!
+para uma classe implementar uma interface, mas não implementar o método dessa interface, essa classe precisa ser abstrata
+
+
+A herança múltipla pode gerar o problema do diamante: uma ambiguidade causada pela
+existência do mesmo método em mais de uma superclasse.
+Herança múltipla não é permitida na maioria das linguagens!
+pode implementar várias interfaces em uma classe: xxx implements x, y
+
+• Interface Comparable
+public interface Comparable<T> {
+	int compareTo (T o);
+}

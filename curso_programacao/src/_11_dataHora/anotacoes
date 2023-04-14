@@ -22,6 +22,13 @@ int month = Integer.parseInt(monthAndYear.substring(0,2));
 int year = Integer.parseInt(monthAndYear.substring(3));
 
 
+** _18_interfaces
+data de vencimento futura pela quantidade de meses do contrato
+for(int i = 1; i<= months; i++) {
+	//data de vencimento
+	LocalDate dueDate= contract.getDate().plusMonths(i);
+}
+
 ** _15_criandoExcessoes
 Scanner sc = new Scanner(System.in);
 SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); //defini o format

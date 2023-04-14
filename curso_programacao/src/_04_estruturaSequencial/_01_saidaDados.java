@@ -21,8 +21,7 @@ public class _01_saidaDados {
 		System.out.printf("%.2f%n", x); // %n = quebra de linha (independente de plataforma)
 		System.out.printf("%.4f%n", x);
 
-		// Para considerar o separador de decimais como ponto, ANTES da declaração do
-		// Scanner, faça
+		// Para considerar o separador de decimais como ponto, ANTES da declaração do Scanner, faça
 		Locale.setDefault(Locale.US);
 		System.out.printf("com . decimal: %.2f%n", x);
 		System.out.printf("com . decimal: %.4f%n", x);

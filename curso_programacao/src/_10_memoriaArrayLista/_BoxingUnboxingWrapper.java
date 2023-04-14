@@ -25,9 +25,15 @@ public class _BoxingUnboxingWrapper {
 		• vantagem: Boxing e unboxing de forma natural
 		• Uso comum: campos de entidades em sistemas de informação (IMPORTANTE!): uso de BD
 		 Pois tipos referência (classes) aceitam valor null e usufruem dos recursos OO:
-		 	public String name;
-			public Double price;
-			public Integer quantity;
+		 	Tipo primitivo 	Classe Wrapper 	Argumentos do construtor
+			Boolean 		Boolean 		booleanou String
+			byte 			Byte 			byte ou String
+			char 			Character 		char
+			Int 			Integer 		int ou String
+			float 			Float 			float, double ou String
+			double 			Double 			double ou String
+			long 			Long 			long ou String
+			short 			Short 			short ou String
 		 */
 		 int w = 22;
 		 Integer obj2 = w;
